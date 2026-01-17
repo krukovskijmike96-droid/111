@@ -1,0 +1,95 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+.menu-list {
+    list-style: none; /* (Вже тут, щоб прибрати крапки) */
+    padding: 0;
+    margin: 0;
+    display: FLEX;
+
+}
+header {
+    padding: 18px 24px;
+    background: #6b4f4f;
+    color: white;
+   display: FLEX;
+   justify-content: space-between;
+   align-items: center;
+}      
+
+.menu-link  {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    margin-left: 8px;
+}
+
+#Minecraft{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://xboxwire.thesourcemediaassets.com/sites/9/2021/10/Minecraft_PC_Bundle_XboxClub_1920x1080.jpg');
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+#fakt{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    background-image: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#Persona{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
